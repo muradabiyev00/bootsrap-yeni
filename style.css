@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.ilk_yazi{
+    width: 248px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    padding: 4px 2px;
+    font-size: 12px;
+    color: white;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.nav_head{
+   color: blue;
+   padding-left: 120px;
+}
+.has{
+    text-decoration: none;
+    color: blue;
+}
+.has:hover{
+    color: blue;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  padding-right: 90px;
+}
+.a{
+    text-decoration: none;
+    color: gray;
+   font-weight: 500;
+}
+a:hover{
+  color: black;
+}
+.esas{
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.esas1{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    padding-top: 200px;
+    
+}
+.esas2{
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+
+}
+.paragraf{
+  font-size: 25px;
+  color: gray;
+  padding-left: 120px;
+}
+.heading{
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    padding-left: 120px;
+}
+.btn1{
+    color: white;
+    background-color: blue;
+    width: 150px;
+    height: 60px;
+    border-radius: 12px;
+    font-weight: 600;
+    margin-left: 120px;
+    border:  solid 1px black;
+    margin-right: 20px;
+    margin-top: 40px;
+    font-size: 17px;
+}
+.btn2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 60px;
+    border-radius: 12px;
+    font-weight: 600;
+    border:  solid 1px black;
+    font-size: 17px;
+}
+.btn1:hover{
+    background-color: rgb(1, 1, 193);
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+}
+.absolute{
+    position: relative;
+}
+.image{
+    position: absolute;
+    height: 80vh;
+    width: 50%;
+    z-index: 2;
+    left: 140px;
+    top: 60px;
+}
+.absolute2{
+    width: 60%;
+    height: 69vh;
+    z-index: 1;
+    position: absolute;
+    background: #1e30f3;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    top: 140px;
+    border-radius: 50px;
+    left: 100px;
+}
+.orta{
+    width: 100%;
+    height: 50vh;
+    background-color: #f8f9fa
+}
+.heading2{
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+.orta{
+    text-align: center;
+    padding-top: 50px;
+}
+.paragraf2{
+  font-size: 20px;
+  color: rgb(83, 83, 83);
+  padding: 20px;
+}
+.paragraf3{
+font-size: 18px;
+padding-left: 340px;
+padding-right: 340px;
+color: gray;
+}
+i{
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    padding: 20px;
+}
+.son{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sonluq{
+    padding-left: 120px;
+}
